@@ -1,0 +1,11 @@
+print ('Hello, World!')
+print(len('Hello, World!'))
+print(type('Hello, World!'))
+print(str(10))
+print(int('10'))
+print(float(10))
+name = input('Enter your name:')
+print(name)
+help('keywords')
+help(str)
+
