@@ -7,5 +7,16 @@ print(float(10))
 name = input('Enter your name:')
 print(name)
 help('keywords')
-help(str)
+# help(str)
 
+
+# min and max function
+
+print(min(20, 30, 40,50))
+print(max(20, 30, 40,50))
+
+print(min([20, 30, 40,50]))
+print(min([20, 30, 40,50]))
+
+#Sum function
+print(sum([20, 30, 40,50]))
