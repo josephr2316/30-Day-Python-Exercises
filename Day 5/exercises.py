@@ -18,3 +18,12 @@ last_item = list2[last_index]
 print("The first item of the list is: ", first_item)
 print("The middle item of the list is: ", middle_item)
 print("The last item of the list is : ", last_item)
+
+# 5.Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+mixed_data_types = ["Joseph", 29, 1.85, "single", "Villa Olga"]
+
+# 6.Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+
+
+
