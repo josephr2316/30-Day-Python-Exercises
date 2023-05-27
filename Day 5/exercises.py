@@ -93,4 +93,33 @@ print(middle_index)
 print(slice_list)
 print(it_companies[middle_index])
 
+# 21.Remove the first IT company from the list
+it_companies.remove(it_companies[0])
+print(it_companies)
+
+# 22.Remove the middle IT company or companies from the list
+if len(it_companies) % 2 is not 0:
+    middle_index = len(it_companies) // 2
+    it_companies.remove(it_companies[middle_index])
+else:
+    middle_index = len(it_companies) // 2
+    second_middle_index = len(it_companies) // 2 - 1
+    it_companies.remove(it_companies[middle_index])
+    it_companies.remove(it_companies[second_middle_index])
+print(it_companies)
+
+# 23.Remove the last IT company from the list
+last_index = len(it_companies) -1
+it_companies.remove(it_companies[last_index])
+
+# 24.Remove all IT companies from the list
+it_companies.clear()
+print(it_companies)
+
+# 25.Destroy the IT companies list
+del it_companies
+
+# 26.Join the following lists:
+
+
 
