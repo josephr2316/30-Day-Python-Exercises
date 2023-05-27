@@ -13,8 +13,8 @@ complex_number = 5 + 9j
 # 4.Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
 base = int(input('Enter base: '))
 height_triangle = int(input('Enter height: '))
-are = int(0.5 * base * height_triangle)
-print('The are of the triangle is ', are)
+area = int(0.5 * base * height_triangle)
+print('The are of the triangle is ', area)
 
 
 # 5.Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
@@ -47,10 +47,9 @@ m_t = 2
 print ('x-intercept: ', x)
 print ('y-intercept: ', y)
 print ('The slope is: ', m_t)
+
 # 9.Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
-
 m = (10 -2) / (6 - 2)
-
 print ('The slope is: ', m)
 # Calculate Euclidean distance
 p = (2,2)
