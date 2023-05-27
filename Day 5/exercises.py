@@ -29,3 +29,6 @@ it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Am
 print(mixed_data_types)
 print(it_companies)
 
+# 8.Print the number of companies in the list
+print(len(it_companies))
+
