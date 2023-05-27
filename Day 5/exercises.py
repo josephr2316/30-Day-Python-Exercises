@@ -51,3 +51,29 @@ print(it_companies)
 # 11.Add an IT company to it_companies
 it_companies.append('SAP')
 print(it_companies)
+
+# 12.Insert an IT company in the middle of the companies list
+middle_index = len(it_companies) // 2
+it_companies.insert(middle_index, 'Sikich')
+print(it_companies)
+
+# 13.Change one of the it_companies names to uppercase (IBM excluded!)
+it_companies[3] = it_companies[3].upper()
+print(it_companies)
+
+# 14.Join the it_companies with a string '#;  '
+it_companies += '#;  '
+print(it_companies)
+
+# 15.Check if a certain company exists in the it_companies list.
+print('APPLE' in it_companies)
+
+# 16.Sort the list using sort() method
+it_companies.sort()
+print(it_companies)
+
+# 17.Reverse the list in descending order using reverse() method
+it_companies.reverse()
+print(it_companies)
+
+
