@@ -85,3 +85,12 @@ print(slice_list)
 # 19.Slice out the last 3 companies from the list
 slice_list = it_companies[-3:]
 print(slice_list)
+
+# 20.Slice out the middle IT company or companies from the list
+middle_index = len(it_companies) // 2
+slice_list = it_companies[middle_index:middle_index+1]
+print(middle_index)
+print(slice_list)
+print(it_companies[middle_index])
+
+
