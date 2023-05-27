@@ -76,4 +76,12 @@ print(it_companies)
 it_companies.reverse()
 print(it_companies)
 
+# 18.Slice out the first 3 companies from the list
+slice_list = it_companies[:3]
+print(slice_list)
+slice_list = it_companies[0:3]
+print(slice_list)
 
+# 19.Slice out the last 3 companies from the list
+slice_list = it_companies[-3:]
+print(slice_list)
