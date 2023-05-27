@@ -43,3 +43,7 @@ last_item = it_companies[last_index]
 print("First company", first_item)
 print("Middle company", middle_item)
 print("Last company", last_item)
+
+# 10.Print the list after modifying one of the companies
+it_companies[0] = 'Instagram'
+print(it_companies)
