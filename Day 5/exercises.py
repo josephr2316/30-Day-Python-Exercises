@@ -25,5 +25,7 @@ mixed_data_types = ["Joseph", 29, 1.85, "single", "Villa Olga"]
 # 6.Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
 
-
+# 7.Print the list using print()
+print(mixed_data_types)
+print(it_companies)
 
