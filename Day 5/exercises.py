@@ -120,6 +120,24 @@ print(it_companies)
 del it_companies
 
 # 26.Join the following lists:
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+new_list = front_end + back_end
+
+
+front_end.extend(back_end)
+new_list2 = front_end.copy()
+
+print(new_list)
+print(new_list2)
+
+# 27.After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+full_stack = new_list.copy()
+index_redux = full_stack.index('Redux') + 1
+full_stack.insert(index_redux,"Python")
+full_stack.insert(index_redux + 1 ,"SQL")
+print(full_stack)
+
 
 
 
