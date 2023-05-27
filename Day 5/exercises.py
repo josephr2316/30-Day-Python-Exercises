@@ -47,3 +47,7 @@ print("Last company", last_item)
 # 10.Print the list after modifying one of the companies
 it_companies[0] = 'Instagram'
 print(it_companies)
+
+# 11.Add an IT company to it_companies
+it_companies.append('SAP')
+print(it_companies)
